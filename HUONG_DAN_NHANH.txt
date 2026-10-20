@@ -1,0 +1,22 @@
+bưu điện bé xíu · gửi Thuwcutie · 20/10
+
+mở ngay hoặc đưa lên hosting:
+- index.html ở gốc là tấm thiệp đã gói cho Thư, có hình và 3 clip nhân vật.
+- chỉ cần đưa index.html lên GitHub Pages hoặc thư mục web của VPS.
+- toàn bộ hình, âm thanh và font đã nằm trong file. không cần cài node hay server ứng dụng.
+
+muốn thêm ảnh hoặc giọng của Híu húi:
+- mở dist/index.html bằng trình duyệt.
+- nhấn viết thiệp → giọng nhân vật & lời nhắn của bạn.
+- chọn bản ghi riêng (tối đa 3 mb, 90 giây), thêm ảnh nếu muốn.
+- bấm tải thiệp để gửi. file mới là bản dành cho Thư.
+- đổi tên bản mới thành index.html nếu đưa lên hosting.
+
+sửa mã nguồn:
+- chỉnh các file trong src/; lời nhắn ở src/config.json.
+- chạy python3 build.py để tạo lại dist/index.html.
+- bước build không tự ghi lại bản nhận index.html ở gốc; mở dist/index.html và xuất lại sau khi sửa.
+
+chưa có bản ghi của Híu húi trong bản mặc định.
+lựa chọn và tiến độ đọc chỉ được giữ trên máy người nhận, không gửi về người tặng.
+chi tiết triển khai và nguồn tài nguyên nằm trong README.md và asset-provenance.md.
